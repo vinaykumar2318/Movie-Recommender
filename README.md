@@ -1,7 +1,7 @@
 # Movie Recommendation System
 
 This project implements a movie recommendation system using Flask for the backend and JavaScript for the frontend. It recommends similar movies based on user input.
-
+![Movie Recommendation System](./images/movie_recommendation_system.png)
 ## Features
 
 - **Search**: Users can input a movie name to get recommendations.
