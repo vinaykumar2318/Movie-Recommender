@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.error {
+    color: red;
+}
+
+.navbar {
+    background-color: #170a0a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar form {
+    display: flex;
+}
+
+.navbar input[type="text"], .navbar button[type="submit"] {
+    margin-right: 10px;
+}
+
+.navbar input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.navbar button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #03b523;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#recommendations-list{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 0;
+}
+
+.movie{
+    background: #333232;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 267px;
+    height: 380px;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster{
+    height: 350px;
+    width: 267px;
+}
+
+.title {
+    display: flex;
+    color: white;
+    font-size: larger;
+    width: 267px;
+    justify-content: center;
+    align-items: center;
+}
